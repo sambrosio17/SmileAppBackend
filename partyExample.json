@@ -1,0 +1,17 @@
+{
+    "titolo": "Festa figlia di vivian",
+    "tipologia": "compleanno",
+    "indirizzo": "via delle rose rotte, 18, ottaviano, (Na) ",
+    "numero_bambini": 8,
+    "data": "2021-05-04",
+    "telefono": "081 8295671",
+    "ora_inizio": "16:30",
+    "ora_fine": "20:00",
+    "numero_animatori": 2,
+    "prezzo": 150,
+    "paga_animatore": 25,
+    "informazione": "",
+    "animatori_disponibili": [],
+    "animatori_scelti": [],
+    "terminata": false
+}

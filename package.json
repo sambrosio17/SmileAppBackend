@@ -4,7 +4,8 @@
   "description": "backend smile app",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "Salvatore Ambrosio <ambrosio.s@outlook.it>",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "mongoose": "^5.10.4",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.18.3"
   }
 }

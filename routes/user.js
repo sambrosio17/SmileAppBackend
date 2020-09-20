@@ -263,7 +263,7 @@ app.put("/setAvailable/:partyId", async (req, res) => {
 
 //TODO: remove availability
 
-pp.put("/removeAvailable/:partyId", async (req, res) => {
+app.put("/removeAvailable/:partyId", async (req, res) => {
 
   try {
 
@@ -328,7 +328,7 @@ pp.put("/removeAvailable/:partyId", async (req, res) => {
 
 //TODO: get all parties by user
 
-appp.get("/myParties/:userId", async (req, res) => {
+app.get("/myParties/:userId", async (req, res) => {
 
   try {
 

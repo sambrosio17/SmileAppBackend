@@ -1,0 +1,44 @@
+db
+
+schema user
+schema party
+
+
+_user
+  unique Number id
+  nome
+  cognome
+  unique username
+  password
+  boolean hasCar
+
+
+_party 
+  unique number id
+  titolo
+  informazioni
+	- numero bambinix
+	- tipologia festa (compleanno - battesimo comunione)x
+	- indirizzox
+	- recapiito telefonico
+	- data festa
+	- ora inizio
+	- ora fine
+	- numero animatori richiesti
+	- prezzo festa
+	- paga ad animatore
+	- altre informazioni
+  animatori disponibili: []
+  animatori festa: []
+  booleand terminata
+
+operazioni
+ LATO ADMIN
+	- aggiungere una festa
+	- eliminare una festa
+	- aggiornare dati festa
+	- inserire animatori per festa
+ LATO USER
+	- inserire disponibilità
+	- modificare profilo
+	
